@@ -54,4 +54,6 @@ target_include_directories(${TARGET_NAME}
 target_precompile_headers(${TARGET_NAME}
         PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/SL/Defines.hpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/SL/Math.hpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/SL/ThirdParty.hpp
 )

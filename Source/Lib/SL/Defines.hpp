@@ -30,6 +30,16 @@
 #include <cstdint>
 #include <cstddef>
 
+#include <fstream>
+#include <mutex>
+#include <string>
+#include <vector>
+#include <thread>
+#include <memory>
+#include <chrono>
+#include <atomic>
+#include <filesystem>
+
 namespace sl {
 // -------------------------
 // 内置类型、常量别名
